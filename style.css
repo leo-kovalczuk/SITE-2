@@ -1,0 +1,10 @@
+:root{
+    --cor-de-fundo: #000000 ;
+    --azul-goiaba: #03d69e;
+    --branco:#ffffff;
+    --botao-ativo:#1b4665;
+    --botao-inativo:#0d082f;
+    --texto-fundo:#ffffff;
+    --fonte:'Tagesschrift'
+}
+@import url('https://fonts.googleapis.com/css2?family=Tagesschrift&display=swap');
