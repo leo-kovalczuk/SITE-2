@@ -8,3 +8,34 @@
     --fonte:'Tagesschrift'
 }
 @import url('https://fonts.googleapis.com/css2?family=Tagesschrift&display=swap');
+
+
+
+@media screen and (min-width: 768px) {
+    .botoes{
+        display: flex;
+    }
+}
+.abas-textos{
+    background-color: var(--texto-fundo);
+padding: 40px;
+border-radius: 0 0 40px 40px;
+}
+.botao.ativo{
+    background-color: var(--botao-ativo);
+    border-bottom: 4px solid var(--azul-goiaba);
+}
+.aba-conteudo{
+    display: nome;
+}
+.aba-conteudo.ativo{
+    display: block;
+}
+.aba-conteudo-titulo-principal{
+    font-size: 28px;
+text-align: center;
+}
+.aba-conteudo-titulo-secundario{
+    texto-align: center;
+    color-tranform: uppercase;
+}
