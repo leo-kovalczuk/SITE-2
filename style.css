@@ -8,7 +8,6 @@
     --fonte:'Tagesschrift'
 }
 @import url('https://fonts.googleapis.com/css2?family=Tagesschrift&display=swap');
-
 body{
     background-color: var(--cor-de-fundo);
     color: var(--branco);
@@ -29,7 +28,7 @@ body{
     font-size: 32px;
 }
 .titulo-principal span{
-    color: var(--azul);
+    color: var(--azul-goiaba);
 }
 .botao{
     font-family: var(--fonte);
@@ -55,7 +54,6 @@ body{
 .botao:last-child{
     border-radius: 0 40px 0 0;
 }
-
 @media screen and (min-width: 768px) {
     .botoes{
         display: flex;
@@ -83,6 +81,28 @@ text-align: center;
 .aba-conteudo-titulo-secundario{
     texto-align: center;
     color-tranform: uppercase;
+    color: var(--azul-goiaba);
+}
+.contador{
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.contador-digito{
+    padding: 0 16px;
+    text-align: center;
+    min-width: 100px;
+}
+.contador-digito-numero{
+    font-size: 80px;
+    margin: 0;
+}
+.contador-digito-texto{
+    color: var(--azul-goiaba);
+    font-size: 20px;
+    margin: 0;
 }
 
 
