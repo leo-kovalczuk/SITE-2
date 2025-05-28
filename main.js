@@ -1,4 +1,4 @@
-const botoes = document.querySelectorAll(".botoes");
+const botoes = document.querySelectorAll(".botao");
 const textos = document.querySelectorAll(".aba-conteudo");
 for (let i=0; i < botoes.length; i++){
     botoes [i].onclick = function(){
@@ -10,7 +10,7 @@ for (let i=0; i < botoes.length; i++){
         textos [i].classList.add ("ativo");
     }
 }
-const contadores = document.querySelectorAll("contador");
+const contadores = document.querySelectorAll(".contador");
 const tempoObjetivol = new Date ("2026-01-01T00:00:00");
 const tempoObjetivo2 = new Date ("2027-03-06T00:00:00");
 const tempoObjetivo3 = new Date  ("2028-07-06T00:00:00");
