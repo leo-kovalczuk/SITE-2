@@ -1,11 +1,11 @@
 :root{
     --cor-de-fundo: #000000 ;
-    --azul-goiaba: #03d69e;
+    --azul: #03d69e;
     --branco:#ffffff;
     --botao-ativo:#1b4665;
     --botao-inativo:#0d082f;
     --texto-fundo:#ffffff;
-    --fonte:'Tagesschrift'
+    --fonte:'Tagesschrift';
 }
 @import url('https://fonts.googleapis.com/css2?family=Tagesschrift&display=swap');
 body{
@@ -28,7 +28,7 @@ body{
     font-size: 32px;
 }
 .titulo-principal span{
-    color: var(--azul-goiaba);
+    color: var(--azul);
 }
 .botao{
     font-family: var(--fonte);
@@ -60,16 +60,16 @@ body{
     }
 }
 .abas-textos{
-    background-color: var(--texto-fundo);
+    background-color: var(--cor-de-fundo);
 padding: 40px;
 border-radius: 0 0 40px 40px;
 }
 .botao.ativo{
     background-color: var(--botao-ativo);
-    border-bottom: 4px solid var(--azul-goiaba);
+    border-bottom: 4px solid var(--azul);
 }
 .aba-conteudo{
-    display: nome;
+    display: none;
 }
 .aba-conteudo.ativo{
     display: block;
@@ -79,9 +79,9 @@ border-radius: 0 0 40px 40px;
 text-align: center;
 }
 .aba-conteudo-titulo-secundario{
-    texto-align: center;
-    color-tranform: uppercase;
-    color: var(--azul-goiaba);
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--azul);
 }
 .contador{
     font-size: 20px;
@@ -100,72 +100,7 @@ text-align: center;
     margin: 0;
 }
 .contador-digito-texto{
-    color: var(--azul-goiaba);
-    font-size: 20px;
-    margin: 0;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.contator{
-    font-size: 20px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-.contator-digito{
-    padding: 0 16px;
-    text-align: center;
-    min-width: 100px;
-}
-.contado-digito-numero{
-    font-size: 80px;
-    margin: 0;
-}
-.contador-digito-texto{
-    color:var(--azul-goiaba);
+    color: var(--azul);
     font-size: 20px;
     margin: 0;
 }
